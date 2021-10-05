@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contener">
+    <form method="POST">
+        <h1> LOGIN PAGE</h1>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nom Utilisateur</label>
+            <input type="email" class="ab" pattern=".+@kalanso.com" placeholder="@kalanso.com" required>
+            
+        </div><div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="ab" name="password"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,8}" required
+            title="le mot de psss doit contenir au moins une lettre de majuscule, un chiffre, une lettre minijuscule et au moins un character">
+        </div>
+         <input class="btn" type="submit" value="se connecter">
+         <input class="reset" type="reset" value="réunitialiser">
+        <br><br>
+        <a href="#"><p>Je n'ai pas de compte, je m'inscris</p></a>
+    </form>
+</div>
+</body>
+</html>

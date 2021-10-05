@@ -1,0 +1,60 @@
+.contener{
+    display: flex;
+    /* Valeur par defaut */
+    border: 1px solid rgb(180, 162, 162);
+    position: absolute;
+    left:50% ;
+    top: 50%;
+    width: 400px;
+    height: 400px;
+    transform: translate(-50%,-50%);
+    border-radius: 12px;
+    background:oldlace; 
+    text-align: center;
+    box-shadow:2px 5px violet;
+
+}
+.mb-3{
+    padding: 20px;
+    font-size: 18px;
+    float: left;
+
+}
+
+input{
+    border: 2px solid rgb(229, 228, 233);
+    font-size: 18px;
+    
+}
+/* la mise en forme de input */
+.btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+/* la couleur de page*/
+  body{
+    background:linear-gradient(100deg , orange,white)
+  }
+  input:valid{
+    background-color: olivedrab;
+  }
+  a{
+      text-align:center ;
+  }
+  .reset{
+    background-color: #e65f21;
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  input::placeholder{
+      color: rgb(223, 209, 206);
+  }
+  
+ 
